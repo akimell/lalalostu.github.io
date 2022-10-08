@@ -1,0 +1,23 @@
+<style>
+h1 {
+  margin-top: 100px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table tr td {
+  text-align: center;
+} 
+td:hover {
+  background-color: lightcoral;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
